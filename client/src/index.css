@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  span,
+  label,
+  Button,
+  svg {
+    @apply text-gray-800 dark:text-gray-200;
+  }
+  body {
+    @apply bg-gray-100 dark:bg-gray-800;
+  }
+}
